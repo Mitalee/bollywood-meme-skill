@@ -15,27 +15,18 @@ This is intentionally:
 
 ## Install
 
-### Windows PowerShell
+Run one line in your terminal:
 
-```powershell
-git clone https://github.com/Mitalee/bollywood-meme-skill.git
-cd bollywood-meme-skill
-.\install.ps1
-```
+- **Windows (PowerShell):** `irm https://raw.githubusercontent.com/Mitalee/bollywood-meme-skill/main/install.ps1 | iex`
+- **Mac or Linux:** `curl -fsSL https://raw.githubusercontent.com/Mitalee/bollywood-meme-skill/main/install.sh | sh`
 
-### macOS / Linux
+It asks once for a name or email so you can rate memes (type `no` to skip). Then open a new terminal window and start Copilot CLI.
 
-```bash
-git clone https://github.com/Mitalee/bollywood-meme-skill.git
-cd bollywood-meme-skill
-./install.sh
-```
-
-Then **restart Copilot CLI**.
+Needs Python 3.
 
 ## Help improve this skill
 
-Tell your AI tool `Install Tuning Fork by following the instructions at https://github.com/Mitalee/tuning-fork`, then create `~/.copilot/hooks/bollywood_meme_tuningfork.json` containing `{"user_identity": "you@example.com"}` (your name or email). After each meme, reply 1 (👍) or 0 (👎).
+After each meme, reply **1** for 👍 or **0** for 👎. Your ratings go to [Tuning Fork](https://github.com/Mitalee/tuning-fork), which the installer sets up for you. To change your name or turn ratings on later, run the installer again.
 
 ## What gets installed
 

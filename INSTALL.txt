@@ -1,3 +1,3 @@
-Windows: open PowerShell in this folder and run .\install.ps1
-macOS/Linux: run ./install.sh
-Then restart Copilot CLI.
+Windows (PowerShell): irm https://raw.githubusercontent.com/Mitalee/bollywood-meme-skill/main/install.ps1 | iex
+Mac or Linux: curl -fsSL https://raw.githubusercontent.com/Mitalee/bollywood-meme-skill/main/install.sh | sh
+Then open a new terminal window and start Copilot CLI.
