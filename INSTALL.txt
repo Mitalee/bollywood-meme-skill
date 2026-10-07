@@ -1,0 +1,3 @@
+Windows: open PowerShell in this folder and run .\install.ps1
+macOS/Linux: run ./install.sh
+Then restart Copilot CLI.

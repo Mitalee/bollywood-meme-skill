@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "hooks": {
+    "agentStop": [
+      {
+        "type": "command",
+        "bash": "python3 \"$HOME/.copilot/hooks/bollywood_meme_hook.py\"",
+        "powershell": "python \"$HOME\\.copilot\\hooks\\bollywood_meme_hook.py\"",
+        "timeoutSec": 2
+      }
+    ]
+  }
+}

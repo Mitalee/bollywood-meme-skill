@@ -1,0 +1,2661 @@
+{
+  "version": "1.0",
+  "description": "Fast-runtime Bollywood meme dialogue corpus. Sholay and other canonical pre-1980 anchors are intentionally retained by user request.",
+  "runtime_policy": {
+    "retrieve_top_k": 5,
+    "rerank_calls": 1,
+    "web_calls": 0,
+    "preferred_additional_latency_ms": 500,
+    "relevance_threshold": 0.7,
+    "recent_meme_suppression": 10
+  },
+  "records": [
+    {
+      "rank": 1,
+      "id": "SHO_001",
+      "dialogue": "Kitne aadmi the?",
+      "movie": "Sholay",
+      "year": 1975,
+      "actor": "Amjad Khan",
+      "character": "Gabbar Singh",
+      "meme_context": "demanding an account of a disappointing result",
+      "themes": [
+        "accountability",
+        "interrogation",
+        "failure"
+      ],
+      "emotions": [
+        "surprise",
+        "anger"
+      ],
+      "situations": [
+        "missing expectations",
+        "too few results",
+        "asking for numbers"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Sholay",
+      "evidence_search_url": "https://www.google.com/search?q=%22Kitne%20aadmi%20the%3F%22%20%22Sholay%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Sholay%20Kitne%20aadmi%20the%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 2,
+      "id": "SHO_002",
+      "dialogue": "Jo darr gaya, samjho mar gaya.",
+      "movie": "Sholay",
+      "year": 1975,
+      "actor": "Amjad Khan",
+      "character": "Gabbar Singh",
+      "meme_context": "mocking fear or hesitation",
+      "themes": [
+        "fear",
+        "courage",
+        "hesitation"
+      ],
+      "emotions": [
+        "swagger",
+        "threat"
+      ],
+      "situations": [
+        "hesitating",
+        "risk",
+        "backing out"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Sholay",
+      "evidence_search_url": "https://www.google.com/search?q=%22Jo%20darr%20gaya%2C%20samjho%20mar%20gaya.%22%20%22Sholay%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Sholay%20Jo%20darr%20gaya%2C%20samjho%20mar%20gaya.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 3,
+      "id": "SHO_003",
+      "dialogue": "Tera kya hoga, Kaliya?",
+      "movie": "Sholay",
+      "year": 1975,
+      "actor": "Amjad Khan",
+      "character": "Gabbar Singh",
+      "meme_context": "ominous prediction about consequences",
+      "themes": [
+        "consequences",
+        "accountability",
+        "threat"
+      ],
+      "emotions": [
+        "menace"
+      ],
+      "situations": [
+        "bad outcome",
+        "consequences",
+        "warning"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Sholay",
+      "evidence_search_url": "https://www.google.com/search?q=%22Tera%20kya%20hoga%2C%20Kaliya%3F%22%20%22Sholay%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Sholay%20Tera%20kya%20hoga%2C%20Kaliya%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 4,
+      "id": "SHO_004",
+      "dialogue": "Bahut yaarana lagta hai.",
+      "movie": "Sholay",
+      "year": 1975,
+      "actor": "Amjad Khan",
+      "character": "Gabbar Singh",
+      "meme_context": "sarcastic reaction to suspicious closeness",
+      "themes": [
+        "sarcasm",
+        "friendship",
+        "suspicion"
+      ],
+      "emotions": [
+        "mockery"
+      ],
+      "situations": [
+        "two people teaming up",
+        "alliances",
+        "suspicious friendship"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Sholay",
+      "evidence_search_url": "https://www.google.com/search?q=%22Bahut%20yaarana%20lagta%20hai.%22%20%22Sholay%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Sholay%20Bahut%20yaarana%20lagta%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 5,
+      "id": "SHO_005",
+      "dialogue": "Arre o Sambha!",
+      "movie": "Sholay",
+      "year": 1975,
+      "actor": "Amjad Khan",
+      "character": "Gabbar Singh",
+      "meme_context": "calling for backup or information",
+      "themes": [
+        "authority",
+        "backup",
+        "information"
+      ],
+      "emotions": [
+        "commanding"
+      ],
+      "situations": [
+        "asking someone for help",
+        "calling a teammate"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Sholay",
+      "evidence_search_url": "https://www.google.com/search?q=%22Arre%20o%20Sambha%21%22%20%22Sholay%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Sholay%20Arre%20o%20Sambha%21%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 6,
+      "id": "MRIND_001",
+      "dialogue": "Mogambo khush hua.",
+      "movie": "Mr. India",
+      "year": 1987,
+      "actor": "Amrish Puri",
+      "character": "Mogambo",
+      "meme_context": "celebrating success or a plan working",
+      "themes": [
+        "success",
+        "victory",
+        "approval"
+      ],
+      "emotions": [
+        "triumph"
+      ],
+      "situations": [
+        "promotion",
+        "win",
+        "achievement",
+        "successful launch"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Mr._India",
+      "evidence_search_url": "https://www.google.com/search?q=%22Mogambo%20khush%20hua.%22%20%22Mr.%20India%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Mr.%20India%20Mogambo%20khush%20hua.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 7,
+      "id": "MRIND_002",
+      "dialogue": "Mogambo khush nahi hua.",
+      "movie": "Mr. India",
+      "year": 1987,
+      "actor": "Amrish Puri",
+      "character": "Mogambo",
+      "meme_context": "comic disappointment when something fails",
+      "themes": [
+        "failure",
+        "disappointment"
+      ],
+      "emotions": [
+        "anger"
+      ],
+      "situations": [
+        "failed plan",
+        "bug",
+        "missed target"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Mr._India",
+      "evidence_search_url": "https://www.google.com/search?q=%22Mogambo%20khush%20nahi%20hua.%22%20%22Mr.%20India%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Mr.%20India%20Mogambo%20khush%20nahi%20hua.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 8,
+      "id": "SHAAN_001",
+      "dialogue": "Aapke paas kya hai?",
+      "movie": "Shaan",
+      "year": 1980,
+      "actor": "Kulbhushan Kharbanda",
+      "character": "Shakaal",
+      "meme_context": "dramatic demand for an explanation or resource",
+      "themes": [
+        "authority",
+        "interrogation",
+        "resources"
+      ],
+      "emotions": [
+        "menace"
+      ],
+      "situations": [
+        "asking what someone has",
+        "resource check"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Shaan",
+      "evidence_search_url": "https://www.google.com/search?q=%22Aapke%20paas%20kya%20hai%3F%22%20%22Shaan%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Shaan%20Aapke%20paas%20kya%20hai%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 9,
+      "id": "JAANE_001",
+      "dialogue": "Thande se kaam lo.",
+      "movie": "Jaane Bhi Do Yaaro",
+      "year": 1983,
+      "actor": "Naseeruddin Shah",
+      "character": "Vinod",
+      "meme_context": "telling everyone to calm down in chaos",
+      "themes": [
+        "calm",
+        "chaos",
+        "conflict"
+      ],
+      "emotions": [
+        "exasperation"
+      ],
+      "situations": [
+        "heated meeting",
+        "argument",
+        "escalation"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Jaane_Bhi_Do_Yaaro",
+      "evidence_search_url": "https://www.google.com/search?q=%22Thande%20se%20kaam%20lo.%22%20%22Jaane%20Bhi%20Do%20Yaaro%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Jaane%20Bhi%20Do%20Yaaro%20Thande%20se%20kaam%20lo.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 10,
+      "id": "JAANE_002",
+      "dialogue": "Hum kya kar sakte hain?",
+      "movie": "Jaane Bhi Do Yaaro",
+      "year": 1983,
+      "actor": "Ravi Baswani",
+      "character": "Sudhir",
+      "meme_context": "helpless reaction to absurd circumstances",
+      "themes": [
+        "helplessness",
+        "absurdity"
+      ],
+      "emotions": [
+        "bewilderment"
+      ],
+      "situations": [
+        "blocked",
+        "stuck",
+        "system failure"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Jaane_Bhi_Do_Yaaro",
+      "evidence_search_url": "https://www.google.com/search?q=%22Hum%20kya%20kar%20sakte%20hain%3F%22%20%22Jaane%20Bhi%20Do%20Yaaro%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Jaane%20Bhi%20Do%20Yaaro%20Hum%20kya%20kar%20sakte%20hain%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 11,
+      "id": "SAHEN_001",
+      "dialogue": "Don’t underestimate the power of a common man.",
+      "movie": "Shahenshah",
+      "year": 1988,
+      "actor": "Amitabh Bachchan",
+      "character": "Shahenshah",
+      "meme_context": "dramatic assertion of underestimated capability",
+      "themes": [
+        "underdog",
+        "power",
+        "confidence"
+      ],
+      "emotions": [
+        "defiance"
+      ],
+      "situations": [
+        "small team",
+        "underdog",
+        "prove them wrong"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Shahenshah",
+      "evidence_search_url": "https://www.google.com/search?q=%22Don%E2%80%99t%20underestimate%20the%20power%20of%20a%20common%20man.%22%20%22Shahenshah%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Shahenshah%20Don%E2%80%99t%20underestimate%20the%20power%20of%20a%20common%20man.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 12,
+      "id": "AGNEE_001",
+      "dialogue": "Vijay Dinanath Chauhan. Poora naam.",
+      "movie": "Agneepath",
+      "year": 1990,
+      "actor": "Amitabh Bachchan",
+      "character": "Vijay",
+      "meme_context": "grand self-introduction",
+      "themes": [
+        "identity",
+        "introduction",
+        "swagger"
+      ],
+      "emotions": [
+        "dramatic"
+      ],
+      "situations": [
+        "introductions",
+        "big reveal",
+        "credentials"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Agneepath",
+      "evidence_search_url": "https://www.google.com/search?q=%22Vijay%20Dinanath%20Chauhan.%20Poora%20naam.%22%20%22Agneepath%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Agneepath%20Vijay%20Dinanath%20Chauhan.%20Poora%20naam.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 13,
+      "id": "AGNEE_002",
+      "dialogue": "Naam Vijay Dinanath Chauhan.",
+      "movie": "Agneepath",
+      "year": 1990,
+      "actor": "Amitabh Bachchan",
+      "character": "Vijay",
+      "meme_context": "formal, over-the-top introduction",
+      "themes": [
+        "identity",
+        "swagger"
+      ],
+      "emotions": [
+        "dramatic"
+      ],
+      "situations": [
+        "introductions",
+        "asserting identity"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Agneepath",
+      "evidence_search_url": "https://www.google.com/search?q=%22Naam%20Vijay%20Dinanath%20Chauhan.%22%20%22Agneepath%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Agneepath%20Naam%20Vijay%20Dinanath%20Chauhan.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 14,
+      "id": "DAMINI_001",
+      "dialogue": "Tareekh pe tareekh.",
+      "movie": "Damini",
+      "year": 1993,
+      "actor": "Sunny Deol",
+      "character": "Govind",
+      "meme_context": "frustration with endless delays",
+      "themes": [
+        "delay",
+        "bureaucracy",
+        "frustration"
+      ],
+      "emotions": [
+        "rage"
+      ],
+      "situations": [
+        "meetings",
+        "deadlines",
+        "legal delays",
+        "waiting"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Damini",
+      "evidence_search_url": "https://www.google.com/search?q=%22Tareekh%20pe%20tareekh.%22%20%22Damini%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Damini%20Tareekh%20pe%20tareekh.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 15,
+      "id": "DAMINI_002",
+      "dialogue": "Tareekh milti rahi hai, milti rahi hai.",
+      "movie": "Damini",
+      "year": 1993,
+      "actor": "Sunny Deol",
+      "character": "Govind",
+      "meme_context": "complaining that a decision keeps getting postponed",
+      "themes": [
+        "delay",
+        "process",
+        "frustration"
+      ],
+      "emotions": [
+        "rage"
+      ],
+      "situations": [
+        "status meetings",
+        "slipping dates",
+        "roadmap delays"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Damini",
+      "evidence_search_url": "https://www.google.com/search?q=%22Tareekh%20milti%20rahi%20hai%2C%20milti%20rahi%20hai.%22%20%22Damini%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Damini%20Tareekh%20milti%20rahi%20hai%2C%20milti%20rahi%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 16,
+      "id": "GHATAK_001",
+      "dialogue": "Ye mazdoor ka haath hai, loha pighla deta hai.",
+      "movie": "Ghatak",
+      "year": 1996,
+      "actor": "Sunny Deol",
+      "character": "Kashi",
+      "meme_context": "boast about strength and resolve",
+      "themes": [
+        "strength",
+        "resolve",
+        "determination"
+      ],
+      "emotions": [
+        "defiance"
+      ],
+      "situations": [
+        "hard work",
+        "grit",
+        "overcoming obstacles"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Ghatak",
+      "evidence_search_url": "https://www.google.com/search?q=%22Ye%20mazdoor%20ka%20haath%20hai%2C%20loha%20pighla%20deta%20hai.%22%20%22Ghatak%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Ghatak%20Ye%20mazdoor%20ka%20haath%20hai%2C%20loha%20pighla%20deta%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 17,
+      "id": "GHATAK_002",
+      "dialogue": "Aye, chhup!",
+      "movie": "Ghatak",
+      "year": 1996,
+      "actor": "Sunny Deol",
+      "character": "Kashi",
+      "meme_context": "blunt command to stop talking",
+      "themes": [
+        "command",
+        "frustration"
+      ],
+      "emotions": [
+        "anger"
+      ],
+      "situations": [
+        "noisy meetings",
+        "interruptions"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Ghatak",
+      "evidence_search_url": "https://www.google.com/search?q=%22Aye%2C%20chhup%21%22%20%22Ghatak%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Ghatak%20Aye%2C%20chhup%21%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 18,
+      "id": "KRANT_001",
+      "dialogue": "Saala ek machhar aadmi ko hijda bana deta hai.",
+      "movie": "Krantiveer",
+      "year": 1994,
+      "actor": "Nana Patekar",
+      "character": "Pratap",
+      "meme_context": "dramatic observation about a tiny thing causing outsized trouble",
+      "themes": [
+        "small-problem",
+        "big-impact",
+        "frustration"
+      ],
+      "emotions": [
+        "anger",
+        "philosophy"
+      ],
+      "situations": [
+        "tiny bug",
+        "small blocker",
+        "disproportionate impact"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Krantiveer",
+      "evidence_search_url": "https://www.google.com/search?q=%22Saala%20ek%20machhar%20aadmi%20ko%20hijda%20bana%20deta%20hai.%22%20%22Krantiveer%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Krantiveer%20Saala%20ek%20machhar%20aadmi%20ko%20hijda%20bana%20deta%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 19,
+      "id": "KRANT_002",
+      "dialogue": "Aa gaye meri maut ka tamasha dekhne.",
+      "movie": "Krantiveer",
+      "year": 1994,
+      "actor": "Nana Patekar",
+      "character": "Pratap",
+      "meme_context": "darkly theatrical reaction to people watching a crisis",
+      "themes": [
+        "crisis",
+        "drama",
+        "spectacle"
+      ],
+      "emotions": [
+        "dark humor"
+      ],
+      "situations": [
+        "incident review",
+        "crisis",
+        "people watching"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Krantiveer",
+      "evidence_search_url": "https://www.google.com/search?q=%22Aa%20gaye%20meri%20maut%20ka%20tamasha%20dekhne.%22%20%22Krantiveer%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Krantiveer%20Aa%20gaye%20meri%20maut%20ka%20tamasha%20dekhne.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 20,
+      "id": "KHAL_001",
+      "dialogue": "Khaamosh!",
+      "movie": "Khamosh",
+      "year": 1985,
+      "actor": "Naseeruddin Shah",
+      "character": "himself",
+      "meme_context": "command to silence a room",
+      "themes": [
+        "silence",
+        "authority"
+      ],
+      "emotions": [
+        "stern"
+      ],
+      "situations": [
+        "meeting interruption",
+        "noise",
+        "stop talking"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Khamosh",
+      "evidence_search_url": "https://www.google.com/search?q=%22Khaamosh%21%22%20%22Khamosh%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Khamosh%20Khaamosh%21%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 21,
+      "id": "MRIND_003",
+      "dialogue": "Zindagi ki yahi reet hai.",
+      "movie": "Mr. India",
+      "year": 1987,
+      "actor": "Anil Kapoor",
+      "character": "Arun",
+      "meme_context": "lightly philosophical acceptance",
+      "themes": [
+        "acceptance",
+        "life"
+      ],
+      "emotions": [
+        "reflective"
+      ],
+      "situations": [
+        "change",
+        "uncertainty",
+        "accepting outcomes"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Mr._India",
+      "evidence_search_url": "https://www.google.com/search?q=%22Zindagi%20ki%20yahi%20reet%20hai.%22%20%22Mr.%20India%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Mr.%20India%20Zindagi%20ki%20yahi%20reet%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 22,
+      "id": "QST_001",
+      "dialogue": "Papa kehte hain bada naam karega.",
+      "movie": "Qayamat Se Qayamat Tak",
+      "year": 1988,
+      "actor": "Aamir Khan",
+      "character": "Raj",
+      "meme_context": "playful reference to expectations and ambition",
+      "themes": [
+        "expectations",
+        "ambition",
+        "future"
+      ],
+      "emotions": [
+        "hopeful"
+      ],
+      "situations": [
+        "career",
+        "goals",
+        "promotion"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Qayamat_Se_Qayamat_Tak",
+      "evidence_search_url": "https://www.google.com/search?q=%22Papa%20kehte%20hain%20bada%20naam%20karega.%22%20%22Qayamat%20Se%20Qayamat%20Tak%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Qayamat%20Se%20Qayamat%20Tak%20Papa%20kehte%20hain%20bada%20naam%20karega.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 23,
+      "id": "MAINE_001",
+      "dialogue": "Dosti ka ek usool hai madam — no sorry, no thank you.",
+      "movie": "Maine Pyar Kiya",
+      "year": 1989,
+      "actor": "Salman Khan",
+      "character": "Prem",
+      "meme_context": "playful rule about friendship",
+      "themes": [
+        "friendship",
+        "etiquette"
+      ],
+      "emotions": [
+        "warmth"
+      ],
+      "situations": [
+        "friends",
+        "help",
+        "gratitude"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Maine_Pyar_Kiya",
+      "evidence_search_url": "https://www.google.com/search?q=%22Dosti%20ka%20ek%20usool%20hai%20madam%20%E2%80%94%20no%20sorry%2C%20no%20thank%20you.%22%20%22Maine%20Pyar%20Kiya%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Maine%20Pyar%20Kiya%20Dosti%20ka%20ek%20usool%20hai%20madam%20%E2%80%94%20no%20sorry%2C%20no%20thank%20you.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 24,
+      "id": "MAINE_002",
+      "dialogue": "Dosti ki hai, nibhani toh padegi.",
+      "movie": "Maine Pyar Kiya",
+      "year": 1989,
+      "actor": "Salman Khan",
+      "character": "Prem",
+      "meme_context": "commitment to a friend",
+      "themes": [
+        "loyalty",
+        "commitment"
+      ],
+      "emotions": [
+        "earnest"
+      ],
+      "situations": [
+        "teamwork",
+        "friendship",
+        "commitments"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Maine_Pyar_Kiya",
+      "evidence_search_url": "https://www.google.com/search?q=%22Dosti%20ki%20hai%2C%20nibhani%20toh%20padegi.%22%20%22Maine%20Pyar%20Kiya%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Maine%20Pyar%20Kiya%20Dosti%20ki%20hai%2C%20nibhani%20toh%20padegi.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 25,
+      "id": "BAAZ_001",
+      "dialogue": "Ab kya hoga?",
+      "movie": "Baazigar",
+      "year": 1993,
+      "actor": "Shah Rukh Khan",
+      "character": "Ajay",
+      "meme_context": "dramatic reaction to uncertainty",
+      "themes": [
+        "uncertainty",
+        "drama"
+      ],
+      "emotions": [
+        "surprise"
+      ],
+      "situations": [
+        "unexpected outcome",
+        "what next"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Baazigar",
+      "evidence_search_url": "https://www.google.com/search?q=%22Ab%20kya%20hoga%3F%22%20%22Baazigar%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Baazigar%20Ab%20kya%20hoga%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 26,
+      "id": "BAAZ_002",
+      "dialogue": "Kabhi kabhi kuch jeetne ke liye kuch haarna padta hai.",
+      "movie": "Baazigar",
+      "year": 1993,
+      "actor": "Shah Rukh Khan",
+      "character": "Ajay",
+      "meme_context": "tradeoff framing",
+      "themes": [
+        "tradeoff",
+        "loss",
+        "winning"
+      ],
+      "emotions": [
+        "philosophical"
+      ],
+      "situations": [
+        "tradeoffs",
+        "career",
+        "decisions"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Baazigar",
+      "evidence_search_url": "https://www.google.com/search?q=%22Kabhi%20kabhi%20kuch%20jeetne%20ke%20liye%20kuch%20haarna%20padta%20hai.%22%20%22Baazigar%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Baazigar%20Kabhi%20kabhi%20kuch%20jeetne%20ke%20liye%20kuch%20haarna%20padta%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 27,
+      "id": "DDLJ_001",
+      "dialogue": "Bade bade deshon mein aisi chhoti chhoti baatein hoti rehti hain.",
+      "movie": "Dilwale Dulhania Le Jayenge",
+      "year": 1995,
+      "actor": "Shah Rukh Khan",
+      "character": "Raj",
+      "meme_context": "dismissing a small awkward incident",
+      "themes": [
+        "minimization",
+        "awkwardness"
+      ],
+      "emotions": [
+        "charm"
+      ],
+      "situations": [
+        "minor mistake",
+        "awkward moment",
+        "small issue"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Dilwale_Dulhania_Le_Jayenge",
+      "evidence_search_url": "https://www.google.com/search?q=%22Bade%20bade%20deshon%20mein%20aisi%20chhoti%20chhoti%20baatein%20hoti%20rehti%20hain.%22%20%22Dilwale%20Dulhania%20Le%20Jayenge%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Dilwale%20Dulhania%20Le%20Jayenge%20Bade%20bade%20deshon%20mein%20aisi%20chhoti%20chhoti%20baatein%20hoti%20rehti%20hain.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 28,
+      "id": "DDLJ_002",
+      "dialogue": "Palat... palat... palat!",
+      "movie": "Dilwale Dulhania Le Jayenge",
+      "year": 1995,
+      "actor": "Shah Rukh Khan",
+      "character": "Raj",
+      "meme_context": "dramatic hope that someone will change their mind",
+      "themes": [
+        "anticipation",
+        "romance",
+        "hope"
+      ],
+      "emotions": [
+        "playful"
+      ],
+      "situations": [
+        "waiting for response",
+        "decision",
+        "will they reply"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Dilwale_Dulhania_Le_Jayenge",
+      "evidence_search_url": "https://www.google.com/search?q=%22Palat...%20palat...%20palat%21%22%20%22Dilwale%20Dulhania%20Le%20Jayenge%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Dilwale%20Dulhania%20Le%20Jayenge%20Palat...%20palat...%20palat%21%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 29,
+      "id": "DDLJ_003",
+      "dialogue": "Raj, naam toh suna hoga.",
+      "movie": "Dilwale Dulhania Le Jayenge",
+      "year": 1995,
+      "actor": "Shah Rukh Khan",
+      "character": "Raj",
+      "meme_context": "self-important introduction",
+      "themes": [
+        "confidence",
+        "introduction"
+      ],
+      "emotions": [
+        "swagger"
+      ],
+      "situations": [
+        "introductions",
+        "personal brand"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Dilwale_Dulhania_Le_Jayenge",
+      "evidence_search_url": "https://www.google.com/search?q=%22Raj%2C%20naam%20toh%20suna%20hoga.%22%20%22Dilwale%20Dulhania%20Le%20Jayenge%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Dilwale%20Dulhania%20Le%20Jayenge%20Raj%2C%20naam%20toh%20suna%20hoga.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 30,
+      "id": "K3G_001",
+      "dialogue": "Keh diya na, bas keh diya.",
+      "movie": "Kabhi Khushi Kabhie Gham",
+      "year": 2001,
+      "actor": "Amitabh Bachchan",
+      "character": "Yashvardhan",
+      "meme_context": "authoritative finality",
+      "themes": [
+        "authority",
+        "finality"
+      ],
+      "emotions": [
+        "stern"
+      ],
+      "situations": [
+        "decision made",
+        "no debate"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Kabhi_Khushi_Kabhie_Gham",
+      "evidence_search_url": "https://www.google.com/search?q=%22Keh%20diya%20na%2C%20bas%20keh%20diya.%22%20%22Kabhi%20Khushi%20Kabhie%20Gham%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Kabhi%20Khushi%20Kabhie%20Gham%20Keh%20diya%20na%2C%20bas%20keh%20diya.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 31,
+      "id": "K3G_002",
+      "dialogue": "Kuch kuch hota hai, Rahul, tum nahi samjhoge.",
+      "movie": "Kuch Kuch Hota Hai",
+      "year": 1998,
+      "actor": "Rani Mukerji",
+      "character": "Tina",
+      "meme_context": "playful way to say someone won't understand a feeling",
+      "themes": [
+        "romance",
+        "confusion",
+        "teasing"
+      ],
+      "emotions": [
+        "playful"
+      ],
+      "situations": [
+        "inside joke",
+        "emotional confusion"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Kuch_Kuch_Hota_Hai",
+      "evidence_search_url": "https://www.google.com/search?q=%22Kuch%20kuch%20hota%20hai%2C%20Rahul%2C%20tum%20nahi%20samjhoge.%22%20%22Kuch%20Kuch%20Hota%20Hai%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Kuch%20Kuch%20Hota%20Hai%20Kuch%20kuch%20hota%20hai%2C%20Rahul%2C%20tum%20nahi%20samjhoge.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 32,
+      "id": "K3G_003",
+      "dialogue": "It's all about loving your parents.",
+      "movie": "Kabhi Khushi Kabhie Gham",
+      "year": 2001,
+      "actor": "Jaya Bachchan",
+      "character": "Nandini",
+      "meme_context": "overly earnest family moral",
+      "themes": [
+        "family",
+        "values"
+      ],
+      "emotions": [
+        "earnest"
+      ],
+      "situations": [
+        "family",
+        "values",
+        "obligation"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Kabhi_Khushi_Kabhie_Gham",
+      "evidence_search_url": "https://www.google.com/search?q=%22It%27s%20all%20about%20loving%20your%20parents.%22%20%22Kabhi%20Khushi%20Kabhie%20Gham%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Kabhi%20Khushi%20Kabhie%20Gham%20It%27s%20all%20about%20loving%20your%20parents.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 33,
+      "id": "HERA_001",
+      "dialogue": "Utha le re baba, utha le.",
+      "movie": "Hera Pheri",
+      "year": 2000,
+      "actor": "Paresh Rawal",
+      "character": "Baburao",
+      "meme_context": "comic plea to escape an unbearable situation",
+      "themes": [
+        "frustration",
+        "helplessness",
+        "chaos"
+      ],
+      "emotions": [
+        "exasperation"
+      ],
+      "situations": [
+        "bad day",
+        "annoying coworkers",
+        "chaos"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Hera_Pheri",
+      "evidence_search_url": "https://www.google.com/search?q=%22Utha%20le%20re%20baba%2C%20utha%20le.%22%20%22Hera%20Pheri%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Hera%20Pheri%20Utha%20le%20re%20baba%2C%20utha%20le.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 34,
+      "id": "HERA_002",
+      "dialogue": "50 rupaye kaat overacting ka.",
+      "movie": "Hera Pheri",
+      "year": 2000,
+      "actor": "Akshay Kumar",
+      "character": "Raju",
+      "meme_context": "calling out exaggerated behavior",
+      "themes": [
+        "overacting",
+        "sarcasm"
+      ],
+      "emotions": [
+        "mockery"
+      ],
+      "situations": [
+        "dramatic coworker",
+        "overreaction"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Hera_Pheri",
+      "evidence_search_url": "https://www.google.com/search?q=%2250%20rupaye%20kaat%20overacting%20ka.%22%20%22Hera%20Pheri%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Hera%20Pheri%2050%20rupaye%20kaat%20overacting%20ka.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 35,
+      "id": "HERA_003",
+      "dialogue": "Yeh Baburao ka style hai.",
+      "movie": "Hera Pheri",
+      "year": 2000,
+      "actor": "Paresh Rawal",
+      "character": "Baburao",
+      "meme_context": "self-branding around a chaotic personal style",
+      "themes": [
+        "style",
+        "identity",
+        "chaos"
+      ],
+      "emotions": [
+        "swagger"
+      ],
+      "situations": [
+        "personal style",
+        "quirky behavior"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Hera_Pheri",
+      "evidence_search_url": "https://www.google.com/search?q=%22Yeh%20Baburao%20ka%20style%20hai.%22%20%22Hera%20Pheri%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Hera%20Pheri%20Yeh%20Baburao%20ka%20style%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 36,
+      "id": "HERA_004",
+      "dialogue": "Aurat ka chakkar, Babu Bhaiya, aurat ka chakkar.",
+      "movie": "Hera Pheri",
+      "year": 2000,
+      "actor": "Akshay Kumar",
+      "character": "Raju",
+      "meme_context": "blaming chaos on romance",
+      "themes": [
+        "romance",
+        "chaos"
+      ],
+      "emotions": [
+        "knowing"
+      ],
+      "situations": [
+        "dating",
+        "relationship trouble"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Hera_Pheri",
+      "evidence_search_url": "https://www.google.com/search?q=%22Aurat%20ka%20chakkar%2C%20Babu%20Bhaiya%2C%20aurat%20ka%20chakkar.%22%20%22Hera%20Pheri%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Hera%20Pheri%20Aurat%20ka%20chakkar%2C%20Babu%20Bhaiya%2C%20aurat%20ka%20chakkar.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 37,
+      "id": "HERA_005",
+      "dialogue": "Khopdi tod saale ka.",
+      "movie": "Hera Pheri",
+      "year": 2000,
+      "actor": "Paresh Rawal",
+      "character": "Baburao",
+      "meme_context": "comic threat when furious",
+      "themes": [
+        "anger",
+        "threat"
+      ],
+      "emotions": [
+        "rage"
+      ],
+      "situations": [
+        "annoyance",
+        "frustration"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Hera_Pheri",
+      "evidence_search_url": "https://www.google.com/search?q=%22Khopdi%20tod%20saale%20ka.%22%20%22Hera%20Pheri%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Hera%20Pheri%20Khopdi%20tod%20saale%20ka.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 38,
+      "id": "HERA_006",
+      "dialogue": "Devi ka prasad mandir mein milta hai, garage mein nahi.",
+      "movie": "Hera Pheri",
+      "year": 2000,
+      "actor": "Paresh Rawal",
+      "character": "Baburao",
+      "meme_context": "absurdly literal correction",
+      "themes": [
+        "absurdity",
+        "correction"
+      ],
+      "emotions": [
+        "deadpan"
+      ],
+      "situations": [
+        "wrong place",
+        "misunderstanding"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Hera_Pheri",
+      "evidence_search_url": "https://www.google.com/search?q=%22Devi%20ka%20prasad%20mandir%20mein%20milta%20hai%2C%20garage%20mein%20nahi.%22%20%22Hera%20Pheri%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Hera%20Pheri%20Devi%20ka%20prasad%20mandir%20mein%20milta%20hai%2C%20garage%20mein%20nahi.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 39,
+      "id": "HERA_007",
+      "dialogue": "Uparwala jab bhi deta hai, chhappad phaad ke deta hai.",
+      "movie": "Hera Pheri",
+      "year": 2000,
+      "actor": "Paresh Rawal",
+      "character": "Baburao",
+      "meme_context": "over-the-top optimism about sudden fortune",
+      "themes": [
+        "luck",
+        "wealth",
+        "optimism"
+      ],
+      "emotions": [
+        "delight"
+      ],
+      "situations": [
+        "unexpected money",
+        "windfall"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Hera_Pheri",
+      "evidence_search_url": "https://www.google.com/search?q=%22Uparwala%20jab%20bhi%20deta%20hai%2C%20chhappad%20phaad%20ke%20deta%20hai.%22%20%22Hera%20Pheri%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Hera%20Pheri%20Uparwala%20jab%20bhi%20deta%20hai%2C%20chhappad%20phaad%20ke%20deta%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 40,
+      "id": "HERA_008",
+      "dialogue": "Paisa hi paisa hoga.",
+      "movie": "Hera Pheri",
+      "year": 2000,
+      "actor": "Akshay Kumar",
+      "character": "Raju",
+      "meme_context": "wild optimism about making money",
+      "themes": [
+        "money",
+        "optimism"
+      ],
+      "emotions": [
+        "excitement"
+      ],
+      "situations": [
+        "startup",
+        "investment",
+        "financial upside"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Hera_Pheri",
+      "evidence_search_url": "https://www.google.com/search?q=%22Paisa%20hi%20paisa%20hoga.%22%20%22Hera%20Pheri%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Hera%20Pheri%20Paisa%20hi%20paisa%20hoga.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 41,
+      "id": "PHIR_001",
+      "dialogue": "25 din mein paisa double.",
+      "movie": "Phir Hera Pheri",
+      "year": 2006,
+      "actor": "Akshay Kumar",
+      "character": "Raju",
+      "meme_context": "ridiculous get-rich-quick confidence",
+      "themes": [
+        "money",
+        "scam",
+        "optimism"
+      ],
+      "emotions": [
+        "confidence"
+      ],
+      "situations": [
+        "quick wins",
+        "side hustle",
+        "investment"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Phir_Hera_Pheri",
+      "evidence_search_url": "https://www.google.com/search?q=%2225%20din%20mein%20paisa%20double.%22%20%22Phir%20Hera%20Pheri%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Phir%20Hera%20Pheri%2025%20din%20mein%20paisa%20double.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 42,
+      "id": "PHIR_002",
+      "dialogue": "Yeh scheme tere liye hai hi nahi.",
+      "movie": "Phir Hera Pheri",
+      "year": 2006,
+      "actor": "Akshay Kumar",
+      "character": "Raju",
+      "meme_context": "gatekeeping an absurd scheme",
+      "themes": [
+        "exclusion",
+        "confidence"
+      ],
+      "emotions": [
+        "mockery"
+      ],
+      "situations": [
+        "not qualified",
+        "wrong audience"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Phir_Hera_Pheri",
+      "evidence_search_url": "https://www.google.com/search?q=%22Yeh%20scheme%20tere%20liye%20hai%20hi%20nahi.%22%20%22Phir%20Hera%20Pheri%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Phir%20Hera%20Pheri%20Yeh%20scheme%20tere%20liye%20hai%20hi%20nahi.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 43,
+      "id": "PHIR_003",
+      "dialogue": "Paisa laya?",
+      "movie": "Phir Hera Pheri",
+      "year": 2006,
+      "actor": "Paresh Rawal",
+      "character": "Baburao",
+      "meme_context": "blunt demand for money/results",
+      "themes": [
+        "money",
+        "accountability"
+      ],
+      "emotions": [
+        "impatience"
+      ],
+      "situations": [
+        "budget",
+        "invoice",
+        "payment"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Phir_Hera_Pheri",
+      "evidence_search_url": "https://www.google.com/search?q=%22Paisa%20laya%3F%22%20%22Phir%20Hera%20Pheri%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Phir%20Hera%20Pheri%20Paisa%20laya%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 44,
+      "id": "AND_001",
+      "dialogue": "Galti se mistake ho gaya.",
+      "movie": "Andaz Apna Apna",
+      "year": 1994,
+      "actor": "Aamir Khan",
+      "character": "Amar",
+      "meme_context": "comically redundant apology for a mistake",
+      "themes": [
+        "mistake",
+        "apology"
+      ],
+      "emotions": [
+        "embarrassment"
+      ],
+      "situations": [
+        "bug",
+        "typo",
+        "accidental change"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Andaz_Apna_Apna",
+      "evidence_search_url": "https://www.google.com/search?q=%22Galti%20se%20mistake%20ho%20gaya.%22%20%22Andaz%20Apna%20Apna%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Andaz%20Apna%20Apna%20Galti%20se%20mistake%20ho%20gaya.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 45,
+      "id": "AND_002",
+      "dialogue": "Teja main hoon, mark idhar hai.",
+      "movie": "Andaz Apna Apna",
+      "year": 1994,
+      "actor": "Paresh Rawal",
+      "character": "Teja",
+      "meme_context": "dramatic identity reveal",
+      "themes": [
+        "identity",
+        "reveal"
+      ],
+      "emotions": [
+        "swagger"
+      ],
+      "situations": [
+        "self-identification",
+        "big reveal"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Andaz_Apna_Apna",
+      "evidence_search_url": "https://www.google.com/search?q=%22Teja%20main%20hoon%2C%20mark%20idhar%20hai.%22%20%22Andaz%20Apna%20Apna%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Andaz%20Apna%20Apna%20Teja%20main%20hoon%2C%20mark%20idhar%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 46,
+      "id": "AND_003",
+      "dialogue": "Crime Master Gogo naam hai mera.",
+      "movie": "Andaz Apna Apna",
+      "year": 1994,
+      "actor": "Shakti Kapoor",
+      "character": "Crime Master Gogo",
+      "meme_context": "grandiose self-introduction",
+      "themes": [
+        "identity",
+        "swagger"
+      ],
+      "emotions": [
+        "comic"
+      ],
+      "situations": [
+        "introductions",
+        "roleplay"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Andaz_Apna_Apna",
+      "evidence_search_url": "https://www.google.com/search?q=%22Crime%20Master%20Gogo%20naam%20hai%20mera.%22%20%22Andaz%20Apna%20Apna%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Andaz%20Apna%20Apna%20Crime%20Master%20Gogo%20naam%20hai%20mera.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 47,
+      "id": "AND_004",
+      "dialogue": "Mogambo ka bhatija.",
+      "movie": "Andaz Apna Apna",
+      "year": 1994,
+      "actor": "Shakti Kapoor",
+      "character": "Crime Master Gogo",
+      "meme_context": "comedic callback to a famous villain",
+      "themes": [
+        "reference",
+        "legacy",
+        "swagger"
+      ],
+      "emotions": [
+        "comic"
+      ],
+      "situations": [
+        "name-dropping",
+        "borrowing authority"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Andaz_Apna_Apna",
+      "evidence_search_url": "https://www.google.com/search?q=%22Mogambo%20ka%20bhatija.%22%20%22Andaz%20Apna%20Apna%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Andaz%20Apna%20Apna%20Mogambo%20ka%20bhatija.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 48,
+      "id": "AND_005",
+      "dialogue": "Unka ek sawaal, humare do-do jawaab.",
+      "movie": "Andaz Apna Apna",
+      "year": 1994,
+      "actor": "Aamir Khan",
+      "character": "Amar",
+      "meme_context": "overconfident promise to have answers",
+      "themes": [
+        "answers",
+        "confidence"
+      ],
+      "emotions": [
+        "swagger"
+      ],
+      "situations": [
+        "Q&A",
+        "interview",
+        "problem solving"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Andaz_Apna_Apna",
+      "evidence_search_url": "https://www.google.com/search?q=%22Unka%20ek%20sawaal%2C%20humare%20do-do%20jawaab.%22%20%22Andaz%20Apna%20Apna%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Andaz%20Apna%20Apna%20Unka%20ek%20sawaal%2C%20humare%20do-do%20jawaab.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 49,
+      "id": "AND_006",
+      "dialogue": "Shabash mere cheetey!",
+      "movie": "Andaz Apna Apna",
+      "year": 1994,
+      "actor": "Aamir Khan",
+      "character": "Amar",
+      "meme_context": "mock-praise for a clever move",
+      "themes": [
+        "praise",
+        "success"
+      ],
+      "emotions": [
+        "playful"
+      ],
+      "situations": [
+        "good job",
+        "clever move"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Andaz_Apna_Apna",
+      "evidence_search_url": "https://www.google.com/search?q=%22Shabash%20mere%20cheetey%21%22%20%22Andaz%20Apna%20Apna%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Andaz%20Apna%20Apna%20Shabash%20mere%20cheetey%21%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 50,
+      "id": "AND_007",
+      "dialogue": "Gogoji aapka ghaghra!",
+      "movie": "Andaz Apna Apna",
+      "year": 1994,
+      "actor": "Salman Khan",
+      "character": "Prem",
+      "meme_context": "absurd comic observation",
+      "themes": [
+        "absurdity",
+        "fashion"
+      ],
+      "emotions": [
+        "delight"
+      ],
+      "situations": [
+        "unexpected visual",
+        "awkwardness"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Andaz_Apna_Apna",
+      "evidence_search_url": "https://www.google.com/search?q=%22Gogoji%20aapka%20ghaghra%21%22%20%22Andaz%20Apna%20Apna%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Andaz%20Apna%20Apna%20Gogoji%20aapka%20ghaghra%21%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 51,
+      "id": "AND_008",
+      "dialogue": "Kachcha khiladi lagta hai.",
+      "movie": "Andaz Apna Apna",
+      "year": 1994,
+      "actor": "Salman Khan",
+      "character": "Prem",
+      "meme_context": "calling someone inexperienced",
+      "themes": [
+        "inexperience",
+        "competition"
+      ],
+      "emotions": [
+        "teasing"
+      ],
+      "situations": [
+        "beginner",
+        "mistake",
+        "newcomer"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Andaz_Apna_Apna",
+      "evidence_search_url": "https://www.google.com/search?q=%22Kachcha%20khiladi%20lagta%20hai.%22%20%22Andaz%20Apna%20Apna%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Andaz%20Apna%20Apna%20Kachcha%20khiladi%20lagta%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 52,
+      "id": "AND_009",
+      "dialogue": "Aaya hoon, kuch toh leke jaunga.",
+      "movie": "Andaz Apna Apna",
+      "year": 1994,
+      "actor": "Aamir Khan",
+      "character": "Amar",
+      "meme_context": "determined to get something out of a situation",
+      "themes": [
+        "determination",
+        "opportunity"
+      ],
+      "emotions": [
+        "swagger"
+      ],
+      "situations": [
+        "negotiation",
+        "getting value"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Andaz_Apna_Apna",
+      "evidence_search_url": "https://www.google.com/search?q=%22Aaya%20hoon%2C%20kuch%20toh%20leke%20jaunga.%22%20%22Andaz%20Apna%20Apna%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Andaz%20Apna%20Apna%20Aaya%20hoon%2C%20kuch%20toh%20leke%20jaunga.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 53,
+      "id": "AND_010",
+      "dialogue": "Bread ka badshah aur omelette ka raja.",
+      "movie": "Andaz Apna Apna",
+      "year": 1994,
+      "actor": "Aamir Khan",
+      "character": "Amar",
+      "meme_context": "absurdly grand title for a mundane thing",
+      "themes": [
+        "grandiosity",
+        "food"
+      ],
+      "emotions": [
+        "comic"
+      ],
+      "situations": [
+        "mundane achievement",
+        "overclaim"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Andaz_Apna_Apna",
+      "evidence_search_url": "https://www.google.com/search?q=%22Bread%20ka%20badshah%20aur%20omelette%20ka%20raja.%22%20%22Andaz%20Apna%20Apna%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Andaz%20Apna%20Apna%20Bread%20ka%20badshah%20aur%20omelette%20ka%20raja.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 54,
+      "id": "LAGAAN_001",
+      "dialogue": "Kya lagta hai?",
+      "movie": "Lagaan",
+      "year": 2001,
+      "actor": "Aamir Khan",
+      "character": "Bhuvan",
+      "meme_context": "asking for a read on the situation",
+      "themes": [
+        "uncertainty",
+        "decision"
+      ],
+      "emotions": [
+        "serious"
+      ],
+      "situations": [
+        "strategy",
+        "decision"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Lagaan",
+      "evidence_search_url": "https://www.google.com/search?q=%22Kya%20lagta%20hai%3F%22%20%22Lagaan%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Lagaan%20Kya%20lagta%20hai%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 55,
+      "id": "LAGAAN_002",
+      "dialogue": "Hum jeetenge.",
+      "movie": "Lagaan",
+      "year": 2001,
+      "actor": "Aamir Khan",
+      "character": "Bhuvan",
+      "meme_context": "simple underdog confidence",
+      "themes": [
+        "underdog",
+        "confidence"
+      ],
+      "emotions": [
+        "hopeful"
+      ],
+      "situations": [
+        "team",
+        "competition",
+        "deadline"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Lagaan",
+      "evidence_search_url": "https://www.google.com/search?q=%22Hum%20jeetenge.%22%20%22Lagaan%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Lagaan%20Hum%20jeetenge.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 56,
+      "id": "3ID_001",
+      "dialogue": "All is well.",
+      "movie": "3 Idiots",
+      "year": 2009,
+      "actor": "Aamir Khan",
+      "character": "Rancho",
+      "meme_context": "self-soothing response to stress",
+      "themes": [
+        "stress",
+        "optimism"
+      ],
+      "emotions": [
+        "reassuring"
+      ],
+      "situations": [
+        "panic",
+        "deadline",
+        "uncertainty"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/3_Idiots",
+      "evidence_search_url": "https://www.google.com/search?q=%22All%20is%20well.%22%20%223%20Idiots%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=3%20Idiots%20All%20is%20well.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 57,
+      "id": "3ID_002",
+      "dialogue": "Baccha hai tu!",
+      "movie": "3 Idiots",
+      "year": 2009,
+      "actor": "Aamir Khan",
+      "character": "Rancho",
+      "meme_context": "teasing someone for immature behavior",
+      "themes": [
+        "immaturity",
+        "teasing"
+      ],
+      "emotions": [
+        "playful"
+      ],
+      "situations": [
+        "rookie mistake",
+        "naivety"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/3_Idiots",
+      "evidence_search_url": "https://www.google.com/search?q=%22Baccha%20hai%20tu%21%22%20%223%20Idiots%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=3%20Idiots%20Baccha%20hai%20tu%21%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 58,
+      "id": "3ID_003",
+      "dialogue": "Aal izz well.",
+      "movie": "3 Idiots",
+      "year": 2009,
+      "actor": "Aamir Khan",
+      "character": "Rancho",
+      "meme_context": "comic mantra for coping with chaos",
+      "themes": [
+        "stress",
+        "coping",
+        "optimism"
+      ],
+      "emotions": [
+        "cheerful"
+      ],
+      "situations": [
+        "deadline",
+        "panic",
+        "work stress"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/3_Idiots",
+      "evidence_search_url": "https://www.google.com/search?q=%22Aal%20izz%20well.%22%20%223%20Idiots%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=3%20Idiots%20Aal%20izz%20well.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 59,
+      "id": "MUNNA_001",
+      "dialogue": "Jadoo ki jhappi.",
+      "movie": "Munna Bhai M.B.B.S.",
+      "year": 2003,
+      "actor": "Sanjay Dutt",
+      "character": "Munna Bhai",
+      "meme_context": "hug-based emotional support",
+      "themes": [
+        "empathy",
+        "comfort"
+      ],
+      "emotions": [
+        "warmth"
+      ],
+      "situations": [
+        "support",
+        "stress",
+        "friendship"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Munna_Bhai_M.B.B.S.",
+      "evidence_search_url": "https://www.google.com/search?q=%22Jadoo%20ki%20jhappi.%22%20%22Munna%20Bhai%20M.B.B.S.%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Munna%20Bhai%20M.B.B.S.%20Jadoo%20ki%20jhappi.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 60,
+      "id": "MUNNA_002",
+      "dialogue": "Gandhigiri.",
+      "movie": "Lage Raho Munna Bhai",
+      "year": 2006,
+      "actor": "Sanjay Dutt",
+      "character": "Munna Bhai",
+      "meme_context": "using kindness/nonviolence as a strategy",
+      "themes": [
+        "kindness",
+        "nonviolence",
+        "strategy"
+      ],
+      "emotions": [
+        "playful"
+      ],
+      "situations": [
+        "conflict",
+        "negotiation",
+        "leadership"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Lage_Raho_Munna_Bhai",
+      "evidence_search_url": "https://www.google.com/search?q=%22Gandhigiri.%22%20%22Lage%20Raho%20Munna%20Bhai%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Lage%20Raho%20Munna%20Bhai%20Gandhigiri.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 61,
+      "id": "MUNNA_003",
+      "dialogue": "Circuit, apun ko kya karna hai?",
+      "movie": "Munna Bhai M.B.B.S.",
+      "year": 2003,
+      "actor": "Sanjay Dutt",
+      "character": "Munna Bhai",
+      "meme_context": "asking a trusted teammate what to do",
+      "themes": [
+        "delegation",
+        "teamwork"
+      ],
+      "emotions": [
+        "comic"
+      ],
+      "situations": [
+        "decision",
+        "delegation"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Munna_Bhai_M.B.B.S.",
+      "evidence_search_url": "https://www.google.com/search?q=%22Circuit%2C%20apun%20ko%20kya%20karna%20hai%3F%22%20%22Munna%20Bhai%20M.B.B.S.%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Munna%20Bhai%20M.B.B.S.%20Circuit%2C%20apun%20ko%20kya%20karna%20hai%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 62,
+      "id": "MUNNA_004",
+      "dialogue": "Bole toh, jhappi.",
+      "movie": "Munna Bhai M.B.B.S.",
+      "year": 2003,
+      "actor": "Arshad Warsi",
+      "character": "Circuit",
+      "meme_context": "casual affectionate reassurance",
+      "themes": [
+        "friendship",
+        "comfort"
+      ],
+      "emotions": [
+        "warmth"
+      ],
+      "situations": [
+        "friendship",
+        "comfort"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Munna_Bhai_M.B.B.S.",
+      "evidence_search_url": "https://www.google.com/search?q=%22Bole%20toh%2C%20jhappi.%22%20%22Munna%20Bhai%20M.B.B.S.%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Munna%20Bhai%20M.B.B.S.%20Bole%20toh%2C%20jhappi.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 63,
+      "id": "WELCOME_001",
+      "dialogue": "Control, Uday, control.",
+      "movie": "Welcome",
+      "year": 2007,
+      "actor": "Nana Patekar",
+      "character": "Uday Shetty",
+      "meme_context": "telling someone to restrain themselves",
+      "themes": [
+        "anger",
+        "restraint"
+      ],
+      "emotions": [
+        "comic"
+      ],
+      "situations": [
+        "overreaction",
+        "anger",
+        "impulse"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Welcome",
+      "evidence_search_url": "https://www.google.com/search?q=%22Control%2C%20Uday%2C%20control.%22%20%22Welcome%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Welcome%20Control%2C%20Uday%2C%20control.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 64,
+      "id": "WELCOME_002",
+      "dialogue": "Mujhe ghar jaana hai.",
+      "movie": "Welcome",
+      "year": 2007,
+      "actor": "Nana Patekar",
+      "character": "Uday Shetty",
+      "meme_context": "comic escape response to chaos",
+      "themes": [
+        "escape",
+        "chaos"
+      ],
+      "emotions": [
+        "exasperation"
+      ],
+      "situations": [
+        "bad situation",
+        "overwhelmed"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Welcome",
+      "evidence_search_url": "https://www.google.com/search?q=%22Mujhe%20ghar%20jaana%20hai.%22%20%22Welcome%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Welcome%20Mujhe%20ghar%20jaana%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 65,
+      "id": "WELCOME_003",
+      "dialogue": "21 din mein paisa double.",
+      "movie": "Welcome",
+      "year": 2007,
+      "actor": "Akshay Kumar",
+      "character": "Rajiv",
+      "meme_context": "absurd confidence about money",
+      "themes": [
+        "money",
+        "confidence"
+      ],
+      "emotions": [
+        "comic"
+      ],
+      "situations": [
+        "investment",
+        "quick returns"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Welcome",
+      "evidence_search_url": "https://www.google.com/search?q=%2221%20din%20mein%20paisa%20double.%22%20%22Welcome%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Welcome%2021%20din%20mein%20paisa%20double.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 66,
+      "id": "WELCOME_004",
+      "dialogue": "Kya karun main, mar jaun?",
+      "movie": "Welcome",
+      "year": 2007,
+      "actor": "Nana Patekar",
+      "character": "Uday Shetty",
+      "meme_context": "melodramatic reaction to stress",
+      "themes": [
+        "stress",
+        "drama"
+      ],
+      "emotions": [
+        "exasperation"
+      ],
+      "situations": [
+        "work crisis",
+        "overwhelm"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Welcome",
+      "evidence_search_url": "https://www.google.com/search?q=%22Kya%20karun%20main%2C%20mar%20jaun%3F%22%20%22Welcome%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Welcome%20Kya%20karun%20main%2C%20mar%20jaun%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 67,
+      "id": "BHOOL_001",
+      "dialogue": "Ami je tomar.",
+      "movie": "Bhool Bhulaiyaa",
+      "year": 2007,
+      "actor": "Vidya Balan",
+      "character": "Avni/Manjulika",
+      "meme_context": "dramatic phrase used as reaction to eerie situations",
+      "themes": [
+        "horror",
+        "drama"
+      ],
+      "emotions": [
+        "eerie"
+      ],
+      "situations": [
+        "spooky",
+        "unexpected"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Bhool_Bhulaiyaa",
+      "evidence_search_url": "https://www.google.com/search?q=%22Ami%20je%20tomar.%22%20%22Bhool%20Bhulaiyaa%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Bhool%20Bhulaiyaa%20Ami%20je%20tomar.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 68,
+      "id": "BHOOL_002",
+      "dialogue": "Main Atul Purohit nahi hoon.",
+      "movie": "Bhool Bhulaiyaa",
+      "year": 2007,
+      "actor": "Akshay Kumar",
+      "character": "Dr Aditya",
+      "meme_context": "comic insistence on identity/competence",
+      "themes": [
+        "identity",
+        "competence"
+      ],
+      "emotions": [
+        "deadpan"
+      ],
+      "situations": [
+        "misunderstanding",
+        "wrong attribution"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Bhool_Bhulaiyaa",
+      "evidence_search_url": "https://www.google.com/search?q=%22Main%20Atul%20Purohit%20nahi%20hoon.%22%20%22Bhool%20Bhulaiyaa%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Bhool%20Bhulaiyaa%20Main%20Atul%20Purohit%20nahi%20hoon.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 69,
+      "id": "DHOOM_001",
+      "dialogue": "Dhoom machale.",
+      "movie": "Dhoom",
+      "year": 2004,
+      "actor": "Abhishek Bachchan",
+      "character": "Jai",
+      "meme_context": "catchphrase for energetic action",
+      "themes": [
+        "energy",
+        "action"
+      ],
+      "emotions": [
+        "excitement"
+      ],
+      "situations": [
+        "launch",
+        "party",
+        "action"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Dhoom",
+      "evidence_search_url": "https://www.google.com/search?q=%22Dhoom%20machale.%22%20%22Dhoom%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Dhoom%20Dhoom%20machale.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 70,
+      "id": "KAL_001",
+      "dialogue": "Aaj mere paas gaadi hai.",
+      "movie": "Deewaar",
+      "year": 1975,
+      "actor": "Amitabh Bachchan",
+      "character": "Vijay",
+      "meme_context": "boasting about possessions",
+      "themes": [
+        "status",
+        "success"
+      ],
+      "emotions": [
+        "swagger"
+      ],
+      "situations": [
+        "success",
+        "achievement"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Deewaar",
+      "evidence_search_url": "https://www.google.com/search?q=%22Aaj%20mere%20paas%20gaadi%20hai.%22%20%22Deewaar%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Deewaar%20Aaj%20mere%20paas%20gaadi%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 71,
+      "id": "KAL_002",
+      "dialogue": "Mere paas maa hai.",
+      "movie": "Deewaar",
+      "year": 1975,
+      "actor": "Shashi Kapoor",
+      "character": "Ravi",
+      "meme_context": "ultimate moral counter to material wealth",
+      "themes": [
+        "family",
+        "values"
+      ],
+      "emotions": [
+        "earnest"
+      ],
+      "situations": [
+        "values",
+        "tradeoff",
+        "meaning"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Deewaar",
+      "evidence_search_url": "https://www.google.com/search?q=%22Mere%20paas%20maa%20hai.%22%20%22Deewaar%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Deewaar%20Mere%20paas%20maa%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 72,
+      "id": "SARKAR_001",
+      "dialogue": "Aapko kya lagta hai, main aapko chhod dunga?",
+      "movie": "Sarkar",
+      "year": 2005,
+      "actor": "Amitabh Bachchan",
+      "character": "Sarkar",
+      "meme_context": "ominous assertion of authority",
+      "themes": [
+        "authority",
+        "threat"
+      ],
+      "emotions": [
+        "stern"
+      ],
+      "situations": [
+        "accountability",
+        "conflict"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Sarkar",
+      "evidence_search_url": "https://www.google.com/search?q=%22Aapko%20kya%20lagta%20hai%2C%20main%20aapko%20chhod%20dunga%3F%22%20%22Sarkar%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Sarkar%20Aapko%20kya%20lagta%20hai%2C%20main%20aapko%20chhod%20dunga%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 73,
+      "id": "DON06_001",
+      "dialogue": "Don ko pakadna mushkil hi nahi, namumkin hai.",
+      "movie": "Don",
+      "year": 2006,
+      "actor": "Shah Rukh Khan",
+      "character": "Don",
+      "meme_context": "boast about being impossible to catch",
+      "themes": [
+        "confidence",
+        "escape"
+      ],
+      "emotions": [
+        "swagger"
+      ],
+      "situations": [
+        "hard problem",
+        "unreachable goal"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Don",
+      "evidence_search_url": "https://www.google.com/search?q=%22Don%20ko%20pakadna%20mushkil%20hi%20nahi%2C%20namumkin%20hai.%22%20%22Don%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Don%20Don%20ko%20pakadna%20mushkil%20hi%20nahi%2C%20namumkin%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 74,
+      "id": "DON06_002",
+      "dialogue": "Don ko pakadna mushkil hai.",
+      "movie": "Don",
+      "year": 2006,
+      "actor": "Shah Rukh Khan",
+      "character": "Don",
+      "meme_context": "shortened boast about elusiveness",
+      "themes": [
+        "confidence",
+        "escape"
+      ],
+      "emotions": [
+        "swagger"
+      ],
+      "situations": [
+        "avoidance",
+        "hard-to-find"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Don",
+      "evidence_search_url": "https://www.google.com/search?q=%22Don%20ko%20pakadna%20mushkil%20hai.%22%20%22Don%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Don%20Don%20ko%20pakadna%20mushkil%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 75,
+      "id": "K3G_005",
+      "dialogue": "Tumhe koi haq nahi banta ki tum itni khoobsurat lago.",
+      "movie": "Kabhi Khushi Kabhie Gham",
+      "year": 2001,
+      "actor": "Shah Rukh Khan",
+      "character": "Rahul",
+      "meme_context": "over-the-top flirtation",
+      "themes": [
+        "romance",
+        "flirtation"
+      ],
+      "emotions": [
+        "charming"
+      ],
+      "situations": [
+        "compliment",
+        "dating"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Kabhi_Khushi_Kabhie_Gham",
+      "evidence_search_url": "https://www.google.com/search?q=%22Tumhe%20koi%20haq%20nahi%20banta%20ki%20tum%20itni%20khoobsurat%20lago.%22%20%22Kabhi%20Khushi%20Kabhie%20Gham%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Kabhi%20Khushi%20Kabhie%20Gham%20Tumhe%20koi%20haq%20nahi%20banta%20ki%20tum%20itni%20khoobsurat%20lago.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 76,
+      "id": "KAHO_001",
+      "dialogue": "Pyaar dosti hai.",
+      "movie": "Kuch Kuch Hota Hai",
+      "year": 1998,
+      "actor": "Shah Rukh Khan",
+      "character": "Rahul",
+      "meme_context": "simplistic framing of romance/friendship",
+      "themes": [
+        "romance",
+        "friendship"
+      ],
+      "emotions": [
+        "earnest"
+      ],
+      "situations": [
+        "relationships",
+        "friendship"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Kuch_Kuch_Hota_Hai",
+      "evidence_search_url": "https://www.google.com/search?q=%22Pyaar%20dosti%20hai.%22%20%22Kuch%20Kuch%20Hota%20Hai%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Kuch%20Kuch%20Hota%20Hai%20Pyaar%20dosti%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 77,
+      "id": "KAHO_002",
+      "dialogue": "Kuch kuch hota hai, Tina, tum nahi samjhogi.",
+      "movie": "Kuch Kuch Hota Hai",
+      "year": 1998,
+      "actor": "Shah Rukh Khan",
+      "character": "Rahul",
+      "meme_context": "teasing someone for not understanding a feeling",
+      "themes": [
+        "teasing",
+        "romance"
+      ],
+      "emotions": [
+        "playful"
+      ],
+      "situations": [
+        "inside joke",
+        "emotional confusion"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Kuch_Kuch_Hota_Hai",
+      "evidence_search_url": "https://www.google.com/search?q=%22Kuch%20kuch%20hota%20hai%2C%20Tina%2C%20tum%20nahi%20samjhogi.%22%20%22Kuch%20Kuch%20Hota%20Hai%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Kuch%20Kuch%20Hota%20Hai%20Kuch%20kuch%20hota%20hai%2C%20Tina%2C%20tum%20nahi%20samjhogi.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 78,
+      "id": "KALHO_001",
+      "dialogue": "Mujhe yakeen hai, hum marne ke baad bhi ek doosre ko yaad karenge.",
+      "movie": "Kal Ho Naa Ho",
+      "year": 2003,
+      "actor": "Shah Rukh Khan",
+      "character": "Aman",
+      "meme_context": "dramatic sentimentality",
+      "themes": [
+        "emotion",
+        "friendship"
+      ],
+      "emotions": [
+        "melodramatic"
+      ],
+      "situations": [
+        "farewell",
+        "change"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Kal_Ho_Naa_Ho",
+      "evidence_search_url": "https://www.google.com/search?q=%22Mujhe%20yakeen%20hai%2C%20hum%20marne%20ke%20baad%20bhi%20ek%20doosre%20ko%20yaad%20karenge.%22%20%22Kal%20Ho%20Naa%20Ho%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Kal%20Ho%20Naa%20Ho%20Mujhe%20yakeen%20hai%2C%20hum%20marne%20ke%20baad%20bhi%20ek%20doosre%20ko%20yaad%20karenge.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 79,
+      "id": "KALHO_002",
+      "dialogue": "Aaj ek hasi aur baant lo.",
+      "movie": "Kal Ho Naa Ho",
+      "year": 2003,
+      "actor": "Shah Rukh Khan",
+      "character": "Aman",
+      "meme_context": "encouraging joy in the present",
+      "themes": [
+        "joy",
+        "presence"
+      ],
+      "emotions": [
+        "warm"
+      ],
+      "situations": [
+        "stress",
+        "life advice"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Kal_Ho_Naa_Ho",
+      "evidence_search_url": "https://www.google.com/search?q=%22Aaj%20ek%20hasi%20aur%20baant%20lo.%22%20%22Kal%20Ho%20Naa%20Ho%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Kal%20Ho%20Naa%20Ho%20Aaj%20ek%20hasi%20aur%20baant%20lo.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 80,
+      "id": "OSO_001",
+      "dialogue": "Picture abhi baaki hai mere dost.",
+      "movie": "Om Shanti Om",
+      "year": 2007,
+      "actor": "Shah Rukh Khan",
+      "character": "Om Kapoor",
+      "meme_context": "reminding someone the story isn't over",
+      "themes": [
+        "comeback",
+        "persistence"
+      ],
+      "emotions": [
+        "triumphant"
+      ],
+      "situations": [
+        "setback",
+        "unfinished work",
+        "comeback"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Om_Shanti_Om",
+      "evidence_search_url": "https://www.google.com/search?q=%22Picture%20abhi%20baaki%20hai%20mere%20dost.%22%20%22Om%20Shanti%20Om%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Om%20Shanti%20Om%20Picture%20abhi%20baaki%20hai%20mere%20dost.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 81,
+      "id": "OSO_002",
+      "dialogue": "Itni shiddat se maine tumhe paane ki koshish ki hai.",
+      "movie": "Om Shanti Om",
+      "year": 2007,
+      "actor": "Shah Rukh Khan",
+      "character": "Om Kapoor",
+      "meme_context": "dramatic declaration of effort",
+      "themes": [
+        "effort",
+        "obsession"
+      ],
+      "emotions": [
+        "dramatic"
+      ],
+      "situations": [
+        "persistence",
+        "goal"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Om_Shanti_Om",
+      "evidence_search_url": "https://www.google.com/search?q=%22Itni%20shiddat%20se%20maine%20tumhe%20paane%20ki%20koshish%20ki%20hai.%22%20%22Om%20Shanti%20Om%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Om%20Shanti%20Om%20Itni%20shiddat%20se%20maine%20tumhe%20paane%20ki%20koshish%20ki%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 82,
+      "id": "WANTED_001",
+      "dialogue": "Ek baar jo maine commitment kar di, phir main apne aap ki bhi nahi sunta.",
+      "movie": "Wanted",
+      "year": 2009,
+      "actor": "Salman Khan",
+      "character": "Radhe",
+      "meme_context": "absolute commitment",
+      "themes": [
+        "commitment",
+        "determination"
+      ],
+      "emotions": [
+        "swagger"
+      ],
+      "situations": [
+        "promise",
+        "deadline",
+        "follow-through"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Wanted",
+      "evidence_search_url": "https://www.google.com/search?q=%22Ek%20baar%20jo%20maine%20commitment%20kar%20di%2C%20phir%20main%20apne%20aap%20ki%20bhi%20nahi%20sunta.%22%20%22Wanted%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Wanted%20Ek%20baar%20jo%20maine%20commitment%20kar%20di%2C%20phir%20main%20apne%20aap%20ki%20bhi%20nahi%20sunta.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 83,
+      "id": "WANTED_002",
+      "dialogue": "Mujhe sab aata hai.",
+      "movie": "Wanted",
+      "year": 2009,
+      "actor": "Salman Khan",
+      "character": "Radhe",
+      "meme_context": "overconfident competence",
+      "themes": [
+        "confidence",
+        "competence"
+      ],
+      "emotions": [
+        "swagger"
+      ],
+      "situations": [
+        "new task",
+        "challenge"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Wanted",
+      "evidence_search_url": "https://www.google.com/search?q=%22Mujhe%20sab%20aata%20hai.%22%20%22Wanted%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Wanted%20Mujhe%20sab%20aata%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 84,
+      "id": "SINGH_001",
+      "dialogue": "Mujhe harane ke liye tumhe mere jaisa banna padega.",
+      "movie": "Singh Is Kinng",
+      "year": 2008,
+      "actor": "Akshay Kumar",
+      "character": "Happy Singh",
+      "meme_context": "boast about uniqueness",
+      "themes": [
+        "confidence",
+        "competition"
+      ],
+      "emotions": [
+        "swagger"
+      ],
+      "situations": [
+        "competition",
+        "leadership"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Singh_Is_Kinng",
+      "evidence_search_url": "https://www.google.com/search?q=%22Mujhe%20harane%20ke%20liye%20tumhe%20mere%20jaisa%20banna%20padega.%22%20%22Singh%20Is%20Kinng%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Singh%20Is%20Kinng%20Mujhe%20harane%20ke%20liye%20tumhe%20mere%20jaisa%20banna%20padega.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 85,
+      "id": "GOLMAL_001",
+      "dialogue": "Aata kya Khandala?",
+      "movie": "Ghulam",
+      "year": 1998,
+      "actor": "Aamir Khan",
+      "character": "Siddharth",
+      "meme_context": "playful invitation/catchphrase",
+      "themes": [
+        "invitation",
+        "flirtation"
+      ],
+      "emotions": [
+        "playful"
+      ],
+      "situations": [
+        "party",
+        "outing"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Ghulam",
+      "evidence_search_url": "https://www.google.com/search?q=%22Aata%20kya%20Khandala%3F%22%20%22Ghulam%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Ghulam%20Aata%20kya%20Khandala%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 86,
+      "id": "GOLMAL_002",
+      "dialogue": "Aye, kya bolti tu?",
+      "movie": "Ghulam",
+      "year": 1998,
+      "actor": "Aamir Khan",
+      "character": "Siddharth",
+      "meme_context": "casual playful query",
+      "themes": [
+        "flirtation",
+        "conversation"
+      ],
+      "emotions": [
+        "playful"
+      ],
+      "situations": [
+        "asking for a decision"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Ghulam",
+      "evidence_search_url": "https://www.google.com/search?q=%22Aye%2C%20kya%20bolti%20tu%3F%22%20%22Ghulam%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Ghulam%20Aye%2C%20kya%20bolti%20tu%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 87,
+      "id": "RDB_001",
+      "dialogue": "Koi bhi desh perfect nahi hota.",
+      "movie": "Rang De Basanti",
+      "year": 2006,
+      "actor": "Aamir Khan",
+      "character": "DJ",
+      "meme_context": "idealism tempered by realism",
+      "themes": [
+        "idealism",
+        "change"
+      ],
+      "emotions": [
+        "reflective"
+      ],
+      "situations": [
+        "product flaws",
+        "organizations",
+        "change"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Rang_De_Basanti",
+      "evidence_search_url": "https://www.google.com/search?q=%22Koi%20bhi%20desh%20perfect%20nahi%20hota.%22%20%22Rang%20De%20Basanti%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Rang%20De%20Basanti%20Koi%20bhi%20desh%20perfect%20nahi%20hota.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 88,
+      "id": "RDB_002",
+      "dialogue": "Agar koi desh ko badalna chahta hai, toh pehle khud ko badalna hoga.",
+      "movie": "Rang De Basanti",
+      "year": 2006,
+      "actor": "Aamir Khan",
+      "character": "DJ",
+      "meme_context": "self-change before systemic change",
+      "themes": [
+        "change",
+        "leadership"
+      ],
+      "emotions": [
+        "earnest"
+      ],
+      "situations": [
+        "organizational change",
+        "personal growth"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Rang_De_Basanti",
+      "evidence_search_url": "https://www.google.com/search?q=%22Agar%20koi%20desh%20ko%20badalna%20chahta%20hai%2C%20toh%20pehle%20khud%20ko%20badalna%20hoga.%22%20%22Rang%20De%20Basanti%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Rang%20De%20Basanti%20Agar%20koi%20desh%20ko%20badalna%20chahta%20hai%2C%20toh%20pehle%20khud%20ko%20badalna%20hoga.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 89,
+      "id": "SWADES_001",
+      "dialogue": "Main nahi maanta ki humare desh mein talent ki kami hai.",
+      "movie": "Swades",
+      "year": 2004,
+      "actor": "Shah Rukh Khan",
+      "character": "Mohan",
+      "meme_context": "belief in local talent",
+      "themes": [
+        "talent",
+        "confidence"
+      ],
+      "emotions": [
+        "earnest"
+      ],
+      "situations": [
+        "team",
+        "local talent",
+        "innovation"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Swades",
+      "evidence_search_url": "https://www.google.com/search?q=%22Main%20nahi%20maanta%20ki%20humare%20desh%20mein%20talent%20ki%20kami%20hai.%22%20%22Swades%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Swades%20Main%20nahi%20maanta%20ki%20humare%20desh%20mein%20talent%20ki%20kami%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 90,
+      "id": "CHAKDE_001",
+      "dialogue": "Sattar minute.",
+      "movie": "Chak De! India",
+      "year": 2007,
+      "actor": "Shah Rukh Khan",
+      "character": "Kabir Khan",
+      "meme_context": "compressed time-to-win speech",
+      "themes": [
+        "deadline",
+        "team",
+        "focus"
+      ],
+      "emotions": [
+        "intense"
+      ],
+      "situations": [
+        "deadline",
+        "competition",
+        "launch"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Chak_De%21_India",
+      "evidence_search_url": "https://www.google.com/search?q=%22Sattar%20minute.%22%20%22Chak%20De%21%20India%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Chak%20De%21%20India%20Sattar%20minute.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 91,
+      "id": "CHAKDE_002",
+      "dialogue": "Mujhe states ke naam na sunai dete hain na dikhai dete hain, sirf ek mulk ka naam sunai deta hai: India.",
+      "movie": "Chak De! India",
+      "year": 2007,
+      "actor": "Shah Rukh Khan",
+      "character": "Kabir Khan",
+      "meme_context": "team over individual divisions",
+      "themes": [
+        "team",
+        "unity",
+        "leadership"
+      ],
+      "emotions": [
+        "intense"
+      ],
+      "situations": [
+        "alignment",
+        "teamwork"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Chak_De%21_India",
+      "evidence_search_url": "https://www.google.com/search?q=%22Mujhe%20states%20ke%20naam%20na%20sunai%20dete%20hain%20na%20dikhai%20dete%20hain%2C%20sirf%20ek%20mulk%20ka%20naam%20sunai%20deta%20hai%3A%20India.%22%20%22Chak%20De%21%20India%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Chak%20De%21%20India%20Mujhe%20states%20ke%20naam%20na%20sunai%20dete%20hain%20na%20dikhai%20dete%20hain%2C%20sirf%20ek%20mulk%20ka%20naam%20sunai%20deta%20hai%3A%20India.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 92,
+      "id": "KHAK_001",
+      "dialogue": "Ek machhar aadmi ko hijda bana deta hai.",
+      "movie": "Krantiveer",
+      "year": 1994,
+      "actor": "Nana Patekar",
+      "character": "Pratap",
+      "meme_context": "small nuisance with outsized power",
+      "themes": [
+        "small-problem",
+        "big-impact"
+      ],
+      "emotions": [
+        "anger"
+      ],
+      "situations": [
+        "bug",
+        "blocker",
+        "small issue"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Krantiveer",
+      "evidence_search_url": "https://www.google.com/search?q=%22Ek%20machhar%20aadmi%20ko%20hijda%20bana%20deta%20hai.%22%20%22Krantiveer%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Krantiveer%20Ek%20machhar%20aadmi%20ko%20hijda%20bana%20deta%20hai.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 93,
+      "id": "HUNG_001",
+      "dialogue": "Main tumko kya samjha raha hoon?",
+      "movie": "Hungama",
+      "year": 2003,
+      "actor": "Paresh Rawal",
+      "character": "Radheshyam",
+      "meme_context": "frustration at explaining something",
+      "themes": [
+        "explanation",
+        "frustration"
+      ],
+      "emotions": [
+        "exasperation"
+      ],
+      "situations": [
+        "miscommunication",
+        "meetings"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Hungama",
+      "evidence_search_url": "https://www.google.com/search?q=%22Main%20tumko%20kya%20samjha%20raha%20hoon%3F%22%20%22Hungama%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Hungama%20Main%20tumko%20kya%20samjha%20raha%20hoon%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 94,
+      "id": "HUNG_002",
+      "dialogue": "Yeh kya ho raha hai?",
+      "movie": "Hungama",
+      "year": 2003,
+      "actor": "Paresh Rawal",
+      "character": "Radheshyam",
+      "meme_context": "bewilderment amid escalating chaos",
+      "themes": [
+        "chaos",
+        "confusion"
+      ],
+      "emotions": [
+        "bewilderment"
+      ],
+      "situations": [
+        "incident",
+        "confusion"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Hungama",
+      "evidence_search_url": "https://www.google.com/search?q=%22Yeh%20kya%20ho%20raha%20hai%3F%22%20%22Hungama%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Hungama%20Yeh%20kya%20ho%20raha%20hai%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 95,
+      "id": "DHAM_001",
+      "dialogue": "Aye, kya re?",
+      "movie": "Dhamaal",
+      "year": 2007,
+      "actor": "Sanjay Dutt",
+      "character": "Kabir",
+      "meme_context": "comic confrontation",
+      "themes": [
+        "conflict",
+        "comic"
+      ],
+      "emotions": [
+        "playful"
+      ],
+      "situations": [
+        "argument",
+        "confusion"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Dhamaal",
+      "evidence_search_url": "https://www.google.com/search?q=%22Aye%2C%20kya%20re%3F%22%20%22Dhamaal%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Dhamaal%20Aye%2C%20kya%20re%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 96,
+      "id": "DHAM_002",
+      "dialogue": "Mera paisa, mera paisa!",
+      "movie": "Dhamaal",
+      "year": 2007,
+      "actor": "Arshad Warsi",
+      "character": "Manav",
+      "meme_context": "comic obsession with money",
+      "themes": [
+        "money",
+        "greed"
+      ],
+      "emotions": [
+        "comic"
+      ],
+      "situations": [
+        "budget",
+        "expense"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Dhamaal",
+      "evidence_search_url": "https://www.google.com/search?q=%22Mera%20paisa%2C%20mera%20paisa%21%22%20%22Dhamaal%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Dhamaal%20Mera%20paisa%2C%20mera%20paisa%21%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 97,
+      "id": "PART_001",
+      "dialogue": "Aapka kya hoga, Janab-e-Aali?",
+      "movie": "Partner",
+      "year": 2007,
+      "actor": "Govinda",
+      "character": "Bhaskar",
+      "meme_context": "playful mock-formality",
+      "themes": [
+        "teasing",
+        "advice"
+      ],
+      "emotions": [
+        "playful"
+      ],
+      "situations": [
+        "relationship",
+        "decision"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Partner",
+      "evidence_search_url": "https://www.google.com/search?q=%22Aapka%20kya%20hoga%2C%20Janab-e-Aali%3F%22%20%22Partner%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Partner%20Aapka%20kya%20hoga%2C%20Janab-e-Aali%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 98,
+      "id": "PART_002",
+      "dialogue": "Love is a game, you play it or you don't.",
+      "movie": "Partner",
+      "year": 2007,
+      "actor": "Govinda",
+      "character": "Bhaskar",
+      "meme_context": "overconfident romantic advice",
+      "themes": [
+        "romance",
+        "confidence"
+      ],
+      "emotions": [
+        "playful"
+      ],
+      "situations": [
+        "dating",
+        "decision"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Partner",
+      "evidence_search_url": "https://www.google.com/search?q=%22Love%20is%20a%20game%2C%20you%20play%20it%20or%20you%20don%27t.%22%20%22Partner%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Partner%20Love%20is%20a%20game%2C%20you%20play%20it%20or%20you%20don%27t.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 99,
+      "id": "SATYA_001",
+      "dialogue": "Mumbai ka king kaun?",
+      "movie": "Satya",
+      "year": 1998,
+      "actor": "Manoj Bajpayee",
+      "character": "Bhiku Mhatre",
+      "meme_context": "swaggering claim to local dominance",
+      "themes": [
+        "swagger",
+        "authority"
+      ],
+      "emotions": [
+        "menace"
+      ],
+      "situations": [
+        "leadership",
+        "competition"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Satya",
+      "evidence_search_url": "https://www.google.com/search?q=%22Mumbai%20ka%20king%20kaun%3F%22%20%22Satya%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Satya%20Mumbai%20ka%20king%20kaun%3F%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 100,
+      "id": "SATYA_002",
+      "dialogue": "Mumbai ka king kaun? Bhiku Mhatre.",
+      "movie": "Satya",
+      "year": 1998,
+      "actor": "Manoj Bajpayee",
+      "character": "Bhiku Mhatre",
+      "meme_context": "self-coronation",
+      "themes": [
+        "swagger",
+        "identity"
+      ],
+      "emotions": [
+        "swagger"
+      ],
+      "situations": [
+        "leadership",
+        "brand"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Satya",
+      "evidence_search_url": "https://www.google.com/search?q=%22Mumbai%20ka%20king%20kaun%3F%20Bhiku%20Mhatre.%22%20%22Satya%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Satya%20Mumbai%20ka%20king%20kaun%3F%20Bhiku%20Mhatre.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    },
+    {
+      "rank": 101,
+      "id": "DDLJ_004",
+      "dialogue": "Jaa Simran, jaa. Jee le apni zindagi.",
+      "movie": "Dilwale Dulhania Le Jayenge",
+      "year": 1995,
+      "actor": "Amrish Puri",
+      "character": "Baldev Singh",
+      "meme_context": "finally getting permission to leave, travel or chase what you want",
+      "themes": [
+        "permission",
+        "freedom",
+        "travel",
+        "letting go"
+      ],
+      "emotions": [
+        "relief",
+        "joy"
+      ],
+      "situations": [
+        "train journey",
+        "travel plans",
+        "approval granted",
+        "catching a train",
+        "leaving for a trip"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Dilwale_Dulhania_Le_Jayenge",
+      "evidence_search_url": "https://www.google.com/search?q=%22Jaa%20Simran%2C%20jaa.%20Jee%20le%20apni%20zindagi.%22%20%22Dilwale%20Dulhania%20Le%20Jayenge%22%20Bollywood%20dialogue%20meme",
+      "image_source_url": "https://www.google.com/search?tbm=isch&q=Dilwale%20Dulhania%20Le%20Jayenge%20Jaa%20Simran%2C%20jaa.%20Jee%20le%20apni%20zindagi.%20meme",
+      "image_source_type": "image-search page (not a direct image URL)"
+    }
+  ],
+  "research_sources": [
+    [
+      "Andaz Apna Apna meme/dialogue source",
+      "https://indianmemetemplates.com/andaz-apna-apna-movie-dialogues-and-memes/"
+    ],
+    [
+      "Andaz Apna Apna dialogue list",
+      "https://www.indiatoday.in/movies/bollywood/story/andaz-apna-apna-20-dialogues-you-cant-forget-188532-2014-04-11"
+    ],
+    [
+      "Andaz Apna Apna meme templates/social use",
+      "https://www.latestly.com/social-viral/andaz-apna-apna-funny-meme-templates-for-free-download-online-aamir-and-salman-khan-as-amar-prems-iconic-one-liners-dialogue-funny-memes-and-videos-to-celebrate-the-re-rel-6767050.html"
+    ],
+    [
+      "Hera Pheri meme templates",
+      "https://bharatiyavishwa.com/hera-pheri-meme-templates/"
+    ],
+    [
+      "Phir Hera Pheri meme templates",
+      "https://bharatiyavishwa.com/phir-hera-pheri-meme-templates/"
+    ],
+    [
+      "Hera Pheri dialogue/meme discussion",
+      "https://www.ibtimes.co.in/these-hilarious-dialogues-hera-pheri-franchise-prove-that-its-best-comedy-film-bollywood-821493"
+    ],
+    [
+      "Hera Pheri current dialogue coverage",
+      "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/hera-pheri-exploring-the-iconic-dialogues-of-the-akshay-kumar-paresh-rawal-and-suneil-shetty-comedy-franchise/articleshow/121457067.cms"
+    ],
+    [
+      "Reddit discussion of meme-able comedy dialogues",
+      "https://www.reddit.com/r/bollywood/comments/ys7c9z/"
+    ],
+    [
+      "Bollywood meme template collection",
+      "https://memestudio.praptechie.in/category/bollywood"
+    ]
+  ],
+  "url_note": "source_url is a movie reference page; evidence_search_url is a verification/search page; image_source_url is an image-search page, not a direct image URL."
+}
