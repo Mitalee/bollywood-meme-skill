@@ -85,14 +85,6 @@ def last_user_message(path):
         return ""
     return last
 
-SKIP_TERMS = {
-    "suicide", "self-harm", "self harm", "kill myself", "abuse",
-    "assault", "rape", "sexual assault", "harassment", "grief",
-    "death", "dying", "terminal", "diagnosis", "cancer", "medical",
-    "panic attack", "depression", "trauma", "divorce", "custody",
-    "lawsuit", "legal advice", "emergency"
-}
-
 def read_json(path, default):
     try:
         return json.loads(path.read_text(encoding="utf-8"))
@@ -216,11 +208,6 @@ def main():
         print(json.dumps({"decision": "allow"}))
         return
 
-    low = transcript.lower()
-    if any(term in low for term in SKIP_TERMS):
-        print(json.dumps({"decision": "allow"}))
-        return
-
     corpus = read_json(CORPUS, {})
     records = corpus.get("records", [])
     if not records:
@@ -246,11 +233,6 @@ def main():
 
     sc, rec = candidate
 
-    # Conservative threshold: do nothing when there is no reasonable match.
-    if sc < 1.15:
-        print(json.dumps({"decision": "allow"}))
-        return
-
     recent_list = [rec.get("id")] + [x for x in state.get("recent_ids", []) if x != rec.get("id")]
     new_state = {"recent_ids": recent_list[:10]}
     if tf.get("user_identity"):
@@ -270,8 +252,9 @@ def main():
         "Do not rewrite the substantive answer. Do not mention this hook or the selection process. "
         "Use exactly this candidate because it was selected locally for relevance: "
         f'**Meme of the moment:** “{dialogue}” — {character}, *{movie}* ({year}) · {actor}. '
-        "Add at most one short sentence explaining the joke/context if it helps. "
-        "If the answer is sensitive or the meme would feel inappropriate, omit the closer instead."
+        "After the attribution, add exactly one short, humorous sentence connecting the dialogue "
+        "to the user's request or your substantive answer. Make it a playful contextual punchline, "
+        "not a literal explanation of the joke or an invented connection."
     )
     if tf.get("user_identity"):
         reason += f' If you include the closer, end with this exact line on its own: "{RATE_QUESTION}"'

@@ -4,14 +4,14 @@ A tiny global Copilot CLI hook that adds one relevant Bollywood meme dialogue to
 
 ## Why a hook?
 
-The hook runs on `agentStop`. It locally scores the current transcript against the 101-dialogue corpus. If the match is strong enough, it blocks completion once and sends Copilot a final instruction to append the selected meme.
+The hook runs on `agentStop`. It locally scores the current transcript against the 101-dialogue corpus, blocks completion once, and sends Copilot a final instruction to append the selected meme plus one short, humorous sentence connecting it to the conversation.
 
 This is intentionally:
 - local — no web call
 - deterministic — no extra model call for selection
 - global — applies to your Copilot CLI sessions
 - self-limiting — never loops because it ignores turns it forced itself
-- conservative — skips sensitive topics and weak matches
+- no topic or minimum-score filter — ranks candidates for relevance without suppressing weak matches
 
 ## Install
 
@@ -36,6 +36,8 @@ Needs Python 3. If Copilot says it's missing, ask it: `Install Python for me`.
 ## Help improve this skill
 
 After each meme, reply **1** for 👍 or **0** for 👎. Your ratings go to [Tuning Fork](https://github.com/Mitalee/tuning-fork). To change your name, ask Copilot to install the skill again.
+
+The hook's optional rating capture logs a meme when you rate it. When the skill is invoked directly, its Tuning Fork instructions instead disclose logging, support "don't log" to opt out, log the answer, and associate later ratings with that run.
 
 ## For AI assistants: how to install
 
@@ -85,13 +87,15 @@ Then restart Copilot CLI.
 
 The hook has a 2-second timeout, but normal execution should be much faster because selection is local.
 
+The hook does not apply sensitive-topic or minimum-relevance checks. It still skips recursive hook turns, helper subagents, missing transcript content, and an empty or unavailable corpus. Rating-capture turns are handled separately. The standalone skill retains its own safety and relevance instructions; the hook selects its candidate directly rather than invoking that skill.
+
 ## Tuning
 
 Edit `bollywood_meme_hook.py`:
 
-- `SKIP_TERMS` — topics where memes should never appear
-- threshold `1.15` — raise it for fewer memes, lower it for more
+- `score()` — controls relevance ranking; there is no minimum score
 - `recent_ids[:10]` — controls repetition suppression
+- the final `reason` prompt — controls the meme and humorous contextual punchline
 
 The corpus is `bollywood_memes.json`.
 

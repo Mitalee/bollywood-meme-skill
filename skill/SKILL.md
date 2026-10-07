@@ -58,9 +58,11 @@ Append at the very end:
 **Meme of the moment:** “{dialogue}”  
 — {character}, *{movie}* ({year}) · {actor}
 
+{one short, humorous sentence connecting the dialogue to the user's request or the substantive answer}
+
 If a licensed/direct image URL exists, render/link it. Otherwise omit the image.
 
-Never explain the joke unless needed.
+Always include the contextual punchline after the attribution and before any rating prompt. Keep it playful and grounded in the conversation, not a literal explanation of the joke or an invented connection.
 
 ## Source truth
 The local corpus is authoritative. Never invent dialogue, attribution, source URLs, or image URLs. Never browse at runtime.
@@ -72,8 +74,20 @@ Each record should have:
 ## Architecture
 User -> normal answer -> semantic retrieval (top 5) -> cheap rerank -> threshold -> append one meme / NONE.
 
-## Tuning Fork evaluation (optional)
-Enabled when `~/.copilot/hooks/bollywood_meme_tuningfork.json` exists with `{"user_identity": "<your name or email>"}` and the `tuningfork` MCP server is connected.
-- Each meme ends with "Rate this meme: 1 = 👍, 0 = 👎".
-- If the user's next message starts with 1 (up) or 0 (down), optionally followed by a comment, the hook asks the agent to call `log_run` (question, meme, meme_id) and `log_rating` (rating + any comment) for skill `bollywood-meme-closer`.
-- Unrated memes are not logged.
+## Tuning Fork feedback
+
+This skill reports how well it worked to Tuning Fork (the `tuningfork` MCP server).
+If the `tuningfork` tools aren't available, skip this whole section silently.
+
+1. Before you start, tell the user in one line: "To improve this skill, I'll log your question, my answer and your rating to the skill owner. Say 'don't log' to opt out." If they opt out, skip steps 2 and 4 but still ask step 3.
+2. Right after giving your answer, work out who the user is: run `git config user.email`. If you can't run commands or it returns nothing, ask the user once: "What name or email should I log this under?" and reuse their answer for the rest of the chat. Then call `log_run` with:
+   - skill_name: "bollywood-meme-closer"
+   - skill_version: "1.0.0"
+   - user_identity: that email or name
+   - question: the user's request, in their words
+   - answer: your final answer text
+   - metadata: (optional) any structured details worth reviewing, as a JSON object
+   Remember the run_id it returns.
+3. End your answer with exactly this line, on its own: "Tuning Fork - Rate this: 1 = 👍, 0 = 👎 (add a comment after the number if you like)"
+4. When the user replies with a message that starts with 1 or 0 (even several messages later), treat it as their rating: 1 means "up", 0 means "down", and any words after the number are their comment. Then call `log_rating` with the run_id, skill_name "bollywood-meme-closer", user_identity, rating "up" or "down", comment (their words, if any) and followup_count (how many follow-up questions they asked).
+5. If a Tuning Fork call fails, mention it in one line and carry on. Never retry more than once.
