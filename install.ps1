@@ -33,7 +33,8 @@ Write-Host ""
 Write-Host "Help improve the memes: after each one you can reply 1 (thumbs up) or 0 (thumbs down)."
 $prompt = if ($current) { "Name or email to log ratings under (Enter = $current, or type no)" } else { "Name or email to log ratings under (or type no)" }
 $answer = $null
-try { $answer = Read-Host $prompt } catch {}
+if ($env:BOLLYWOOD_MEME_IDENTITY) { $answer = $env:BOLLYWOOD_MEME_IDENTITY }
+else { try { $answer = Read-Host $prompt } catch {} }
 if ($null -eq $answer) { $answer = "no" }
 $answer = $answer.Trim()
 if (-not $answer) { $answer = $current }

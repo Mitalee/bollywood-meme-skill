@@ -41,7 +41,9 @@ fi
 echo
 echo "Help improve the memes: after each one you can reply 1 (thumbs up) or 0 (thumbs down)."
 ANSWER="no"
-if (: </dev/tty) 2>/dev/null; then
+if [ -n "${BOLLYWOOD_MEME_IDENTITY:-}" ]; then
+  ANSWER="$BOLLYWOOD_MEME_IDENTITY"
+elif (: </dev/tty) 2>/dev/null; then
   if [ -n "$CURRENT" ]; then printf "Name or email to log ratings under (Enter = %s, or type no): " "$CURRENT"
   else printf "Name or email to log ratings under (or type no): "; fi
   IFS= read -r ANSWER </dev/tty || ANSWER="no"
